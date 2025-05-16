@@ -9,8 +9,8 @@ A Python script to crawl recent public pastes on Pastebin.com and search for spe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pastebin-keyword-crawler.git
-   cd pastebin-keyword-crawler
+   git clone https://github.com/deepika1998kala/Pastebin-Keyword-Crawler.git
+   cd Pastebin-Keyword-Crawler
 
 2. Install dependencies:
 pip install -r requirements.txt
@@ -22,7 +22,7 @@ pip install requests beautifulsoup4
 
 1. Run the Script
 To start scraping Pastebin and find pastes with the specified keywords, run the following command:
-python pastebin_keyword_crawler.py
+python pastebin_crawler.py
 2. Output File
 The script will create a keyword_matches.jsonl file in the same directory. This file will contain the details of all the pastes that match the keywords, in the following format:
 Then, commit and push this file to the remote repository:
@@ -39,7 +39,7 @@ Then, commit and push this file to the remote repository:
 The script prints out a log of each paste it processes, showing whether a match was found or skipped.
 
 Files
-pastebin_keyword_crawler.py: The main script that performs the scraping and keyword matching.
+pastebin_rawler.py: The main script that performs the scraping and keyword matching.
 
 requirements.txt: The list of required Python libraries.
 
