@@ -5,7 +5,7 @@ A Python script to crawl recent public pastes on Pastebin.com and search for spe
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 3. Install Required Libraries:
 pip install requests beautifulsoup4
 
-🚀 Command-Line Usage
+## Command-Line Usage
 
 1. Run the Script
 To start scraping Pastebin and find pastes with the specified keywords, run the following command:
@@ -38,13 +38,6 @@ Then, commit and push this file to the remote repository:
 3. Check the logs for progress
 The script prints out a log of each paste it processes, showing whether a match was found or skipped.
 
-Features
-Keyword Matching: Searches for crypto-related terms (e.g., "crypto", "bitcoin", "ethereum", "blockchain") and Telegram links (e.g., "t.me").
-
-Rate Limiting: Uses time.sleep(2) between requests to avoid hitting Pastebin's servers too frequently.
-
-Error Handling: Logs failed requests or skips empty pastes.
-
 Files
 pastebin_keyword_crawler.py: The main script that performs the scraping and keyword matching.
 
@@ -52,12 +45,12 @@ requirements.txt: The list of required Python libraries.
 
 keyword_matches.jsonl: The output file that stores the pastes containing the specified keywords.
 
-📤 Sample Output
+##  Sample Output
 [+] Found keyword 'crypto' in: https://pastebin.com/abc123
 [+] Found keyword 'telegram' in: https://pastebin.com/xyz456
 [+] No matches found on page 3
 
-📄 How It Works
+##  How It Works
 The script scrapes recent public pastes from Pastebin.
 
 It downloads the content of each paste.
@@ -66,9 +59,7 @@ Then it checks if any of the user-provided keywords are found.
 
 Matching URLs are printed to the console.
 
-🖼️ Screenshot (POC)
-
-## 🖼️ Screenshot (POC)
+## Screenshot (POC)
 
 ![Tool Screenshot](POC.png)
 
